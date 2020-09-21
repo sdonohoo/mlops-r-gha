@@ -1,6 +1,8 @@
 library(azuremlsdk)
 cat("Completed package load\n")
 
+# Test change
+
 library(jsonlite)
 AZURE_CREDENTIALS=Sys.getenv("AZURE_CREDENTIALS")
 if(nchar(AZURE_CREDENTIALS)==0) stop("No AZURE_CREDENTIALS")
